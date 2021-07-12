@@ -23,6 +23,9 @@ app.get("/euros", (request, response, next) => {
   response.json([
     { Brazil: 0, Argentina: 1, Cup: "Copa America" },
     { England: 1, Italy: 2, Cup: "Euros" },
+    { Italy: 3, Swiss: 1, Cup: "Euros" },
+    { Germany: 3, England: 4, Cup: "Euros" },
+    { Colombia: 4, Paraguay: 2, Cup: "Copa America" },
   ]);
 });
 
